@@ -1,0 +1,125 @@
+
+ *{
+     box-sizing: border-box;
+ }
+
+body{
+    background-color: #213448;
+    padding: 0;
+    margin: 0;
+    
+}
+header{
+    background-color: #549265;
+    height: 120px;
+    width: 100%;
+    
+}
+header h1{
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    margin: 0;
+}
+.CAUSAS img{
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
+
+}
+.DATOS img{
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
+
+}
+.DATOSCURIOSOS img{
+    height: 300px;
+    width: auto ;
+    border-radius: 20px;
+}
+.CAUSAS .titulo, .texto{
+    color: white;
+    
+}
+.DATOS .titulo, .texto{
+    color: white;
+}
+
+.DATOSCURIOSOS .titulo, .texto{
+    color: white;
+}
+
+.CAUSAS{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 60px;
+}
+.DATOS{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 60px;
+}
+.DATOSCURIOSOS{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 60px;
+}
+.CAUSAS p{
+    width: 500px;
+    font-size:20px ;
+   font-family: Georgia, 'Times New Roman', serif;
+   font-weight:lighter ;
+
+}
+.DATOS p{
+    width: 500px;
+    font-size:20px;
+   font-family: Georgia, 'Times New Roman', serif;
+   font-weight:lighter ;
+}
+.DATOSCURIOSOS p{
+   width: 500px;
+    font-size:20px;
+   font-family: Georgia, 'Times New Roman', serif;
+   font-weight:lighter ;
+}
+.formas{
+    text-align: center;
+    color: white;
+}
+
+
+.contenedor {
+    background-color: #547792;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+    font-family: "Abril Fatface", serif;
+    color: white;
+    position: relative;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.contenedor h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+    margin: 0;
+    font-size: 32px;
+    top: 10px; 
+}
