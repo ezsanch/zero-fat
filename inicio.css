@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.contenedor{
+
+    background-color: #547792;
+    display: flex;
+    color: white;
+    height: 100px;
+    text-align: center ;
+    align-items: center; /* centra verticalmente */
+     font-family: "Abril Fatface", serif;
+     width: 100%;
+    
+}
+#logo{
+    height: 110px;
+    width: 110px;
+     left: 20px;   
+     position: absolute;
+}
+h2{
+    text-align: center;
+}
+.texto{
+    color: white;
+    background-color:  #213448;
+    width: 650px;
+    height: 200px;
+    margin: 0 auto;
+    font-family: "Roboto Serif" serif;
+    font-weight: 100;
+    
+}
+h1{
+    margin: 0 auto;
+}
+ .botones {
+      display: flex;
+      grid-template-columns: repeat(4, 1fr);
+      justify-content: center; 
+      align-items: center;
+      gap: 85px;
+      
+    }
+
+    .boton {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 2px solid white;
+      border-radius: 15px;
+      padding: 30px 20px;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      transition: 0.3s;
+    }
+
+    .boton:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      transform: translateY(-5px);
+    }
+
+    .boton h2 {
+      font-family: "Roboto Serif" serif;
+      margin-bottom: 10px;
+    }
+
+    .boton p {
+      margin: 0;
+      font-weight: bold;
+    }
+    #mancuerna{
+        width: 100px;
+        height: 100px;
+    }
+    #calculadora{
+        width: 100px;
+        height: 100px;
+    }
+    #icono{
+         width: 100px;
+        height: 100px;
+    }
+    .row {
+      background-color: black;
+      color: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.col {
+  width: 300px;
+}
